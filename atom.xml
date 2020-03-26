@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Dufanの秘密花园</title>
+  
+  <subtitle>Dufanの博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://Ldufan.github.io/"/>
+  <updated>2020-03-26T14:06:26.050Z</updated>
+  <id>https://Ldufan.github.io/</id>
+  
+  <author>
+    <name>Dufan</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello Word</title>
+    <link href="https://Ldufan.github.io/hello-word.html"/>
+    <id>https://Ldufan.github.io/hello-word.html</id>
+    <published>2020-03-25T13:32:37.000Z</published>
+    <updated>2020-03-26T14:06:26.050Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Hello-Word&quot;&gt;&lt;a href=&quot;#Hello-Word&quot; class=&quot;headerlink&quot; title=&quot;Hello Word&quot;&gt;&lt;/a&gt;Hello Word&lt;/h1&gt;&lt;p&gt;​    This is my first blog!&lt;/p&gt;
+&lt;div
+        
+      
+    
+    </summary>
+    
+      <category term="-Hello" scheme="https://Ldufan.github.io/categories/Hello/"/>
+    
+    
+      <category term="Hexo" scheme="https://Ldufan.github.io/tags/Hexo/"/>
+    
+      <category term="Github" scheme="https://Ldufan.github.io/tags/Github/"/>
+    
+      <category term="博客" scheme="https://Ldufan.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>

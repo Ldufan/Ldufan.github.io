@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello Word</title>
+      <link href="/hello-word.html"/>
+      <url>/hello-word.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hello-Word"><a href="#Hello-Word" class="headerlink" title="Hello Word"></a>Hello Word</h1><p>​    This is my first blog!</p><div align="middle"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=1372796676&amp;auto=1&amp;height=66"></iframe></div><h1 id="To-Do"><a href="#To-Do" class="headerlink" title="To Do"></a>To Do</h1><ol><li><p>blog</p></li><li><p>git</p></li><li><p>markdown</p></li><li><p>毕设</p></li><li><p>机电一体化作业</p><p> 结合专业，科研方向，围绕机电一体化技术基础写课程报告，字数图文并茂 5 页以上；开放型，毕业设计格式</p><p> 4.5前交</p></li><li><p>振动学作业  4.14 </p></li><li><p>聚类系统</p></li><li><p>形势与政策</p></li><li><p>备份</p></li><li><p>todo开发</p></li></ol><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> -Hello </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Github </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
