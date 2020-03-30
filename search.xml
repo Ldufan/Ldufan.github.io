@@ -20,11 +20,40 @@
       
         <tags>
             
+            <tag> Github </tag>
+            
             <tag> Hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Git学习笔记</title>
+      <link href="/git-xue-xi-bi-ji.html"/>
+      <url>/git-xue-xi-bi-ji.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Git学习笔记"><a href="#Git学习笔记" class="headerlink" title="Git学习笔记"></a>Git学习笔记</h1><h2 id="初识Git"><a href="#初识Git" class="headerlink" title="初识Git"></a>初识Git</h2><h2 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h2><h2 id="Git使用"><a href="#Git使用" class="headerlink" title="Git使用"></a>Git使用</h2><h2 id="Git与Github"><a href="#Git与Github" class="headerlink" title="Git与Github"></a>Git与Github</h2><h2 id="关联多个远程库"><a href="#关联多个远程库" class="headerlink" title="关联多个远程库"></a>关联多个远程库</h2><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
             
             <tag> Github </tag>
             
-            <tag> 博客 </tag>
+            <tag> 学习笔记 </tag>
             
         </tags>
       
