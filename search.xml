@@ -8,12 +8,12 @@
       <link href="/hello-word.html"/>
       <url>/hello-word.html</url>
       
-        <content type="html"><![CDATA[<h1 id="Hello-Word"><a href="#Hello-Word" class="headerlink" title="Hello Word"></a>Hello Word</h1><p>​    This is my first blog!</p><p>​    这是我的第一篇博客，以后这里将成为我采坑记录的秘密花园。</p><div align="middle"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=1372796676&amp;auto=1&amp;height=66"></iframe></div><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<h1 id="Hello-Word"><a href="#Hello-Word" class="headerlink" title="Hello Word"></a>Hello Word</h1><p>​    Hello Word！This is my first blog!</p><p>​    这是我的第一篇博客，以后这里将成为我的秘密花园。</p><div align="middle"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=1403136561&amp;auto=1&amp;height=66"></iframe></div><p>​    本博客采用广为流传的Hexo+Github搭建，初衷就是想找一个地方做的学习记录和采坑记录。人生就是不断地挖坑和填坑的过程，实际上更为残酷的是坑不挖也会有，但不填决不会自己消失。</p><p>​    学无止境，择善而从！<span class="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8">😄</span></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
           
-          <category> -博客 </category>
+          <category> 博客 </category>
           
       </categories>
       
