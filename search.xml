@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>有关Blog</title>
+      <link href="/you-guan-blog.html"/>
+      <url>/you-guan-blog.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="博客备份"><a href="#博客备份" class="headerlink" title="博客备份"></a>博客备份</h1><h2 id="1-U盘备份"><a href="#1-U盘备份" class="headerlink" title="1. U盘备份"></a>1. U盘备份</h2><p>如题。</p><h2 id="2-Github、Gitee备份"><a href="#2-Github、Gitee备份" class="headerlink" title="2. Github、Gitee备份"></a>2. Github、Gitee备份</h2><ol><li><p>新建远程仓库，名字最好与本地博客目录名字一致，切记不要勾选Readme和.gitignore，只填仓库名称和介绍即可。</p></li><li><p>在本地博客目录下初始化仓库<code>git init</code>，添加忽略规则<code>*.log</code><br> <code>public/</code>  <code>.deploy*/</code>，至少包含这三项。</p></li><li><p><code>git add --all</code> , <code>git commit -m "message"</code>，建立本地仓库。</p></li><li><p>关联远程仓库</p><pre class="line-numbers language-bash"><code class="language-bash"> <span class="token function">git</span> remote add github git@github.com:username/reponame.git <span class="token function">git</span> remote add gitee git@gitee.com:username/reponame.git<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li><li><p>推送到远程仓库 <code>git push -u github master</code>,<code>git push -u github master</code></p></li></ol><p>注：其实懂得git就很简单了。</p><h2 id="3-博客恢复"><a href="#3-博客恢复" class="headerlink" title="3. 博客恢复"></a>3. 博客恢复</h2><p>暂时未遇到，待续。</p><p>本作品采用<a rel="noopener" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">知识共享署名 4.0 国际许可协议</a>进行许可。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git学习笔记</title>
       <link href="/git-xue-xi-bi-ji.html"/>
       <url>/git-xue-xi-bi-ji.html</url>
