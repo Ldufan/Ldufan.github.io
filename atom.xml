@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Ldufan.github.io/"/>
-  <updated>2020-04-03T03:04:14.363Z</updated>
+  <updated>2020-05-01T04:03:29.893Z</updated>
   <id>https://Ldufan.github.io/</id>
   
   <author>
@@ -17,11 +17,73 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>pyqt5简单入门</title>
+    <link href="https://Ldufan.github.io/pyqt5-jian-dan-ru-men.html"/>
+    <id>https://Ldufan.github.io/pyqt5-jian-dan-ru-men.html</id>
+    <published>2020-05-01T02:22:46.000Z</published>
+    <updated>2020-05-01T04:03:29.893Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;pyqt5简单入门&quot;&gt;&lt;a href=&quot;#pyqt5简单入门&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://Ldufan.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://Ldufan.github.io/tags/python/"/>
+    
+      <category term="pyqt5" scheme="https://Ldufan.github.io/tags/pyqt5/"/>
+    
+      <category term="designer" scheme="https://Ldufan.github.io/tags/designer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Sublime Text配置大全</title>
+    <link href="https://Ldufan.github.io/sublime-text-pei-zhi-da-quan.html"/>
+    <id>https://Ldufan.github.io/sublime-text-pei-zhi-da-quan.html</id>
+    <published>2020-04-03T10:46:47.000Z</published>
+    <updated>2020-04-03T11:01:21.370Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Sublime-Text配置大全&quot;&gt;&lt;a href=&quot;#Sublime-Text配置大全&quot; class=&quot;headerlink&quot; title=&quot;Sublime Text配置大全&quot;&gt;&lt;/a&gt;Sublime Text配置大全&lt;/h1&gt;&lt;h2 id=&quot;下载安装&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="软件" scheme="https://Ldufan.github.io/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+      <category term="备份" scheme="https://Ldufan.github.io/tags/%E5%A4%87%E4%BB%BD/"/>
+    
+      <category term="软件" scheme="https://Ldufan.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="PC" scheme="https://Ldufan.github.io/tags/PC/"/>
+    
+      <category term="Sublime Text" scheme="https://Ldufan.github.io/tags/Sublime-Text/"/>
+    
+  </entry>
+  
+  <entry>
     <title>PC软件及配置备份</title>
     <link href="https://Ldufan.github.io/pc-ruan-jian-bei-fen.html"/>
     <id>https://Ldufan.github.io/pc-ruan-jian-bei-fen.html</id>
     <published>2020-04-03T01:43:25.000Z</published>
-    <updated>2020-04-03T03:04:14.363Z</updated>
+    <updated>2020-05-01T04:09:35.068Z</updated>
     
     <summary type="html">
     
@@ -51,7 +113,7 @@
     <link href="https://Ldufan.github.io/you-guan-blog.html"/>
     <id>https://Ldufan.github.io/you-guan-blog.html</id>
     <published>2020-04-01T12:36:44.000Z</published>
-    <updated>2020-04-01T12:56:13.205Z</updated>
+    <updated>2020-04-03T05:01:54.754Z</updated>
     
     <summary type="html">
     
@@ -70,9 +132,9 @@
     
       <category term="Github" scheme="https://Ldufan.github.io/tags/Github/"/>
     
-      <category term="博客" scheme="https://Ldufan.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="Hexo" scheme="https://Ldufan.github.io/tags/Hexo/"/>
+    
+      <category term="博客" scheme="https://Ldufan.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -130,9 +192,9 @@
     
       <category term="Github" scheme="https://Ldufan.github.io/tags/Github/"/>
     
-      <category term="博客" scheme="https://Ldufan.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="Hexo" scheme="https://Ldufan.github.io/tags/Hexo/"/>
+    
+      <category term="博客" scheme="https://Ldufan.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
