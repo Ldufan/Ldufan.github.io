@@ -4,6 +4,66 @@
   
     
     <entry>
+      <title>基于Arduino的门禁系统</title>
+      <link href="/ji-yu-arduino-de-men-jin-xi-tong.html"/>
+      <url>/ji-yu-arduino-de-men-jin-xi-tong.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="基于Arduino的门禁系统"><a href="#基于Arduino的门禁系统" class="headerlink" title="基于Arduino的门禁系统"></a>基于Arduino的门禁系统</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>以Arduino UNO板为核心控制器驱动蜂鸣器以及舵机，在任一方式通过的情况下打开舵机并峰鸣提示，同时APP会接收到相关通知。</p><ul><li><strong>红外遥控</strong><ul><li>用家里的随便一个遥控器，在代码中设置好键位的id即可，当然可以是手机的遥控器APP了，；</li><li>控制距离有限，而且没人会随身带遥控器，实际上没什么用；</li></ul></li><li><strong>IC卡</strong><ul><li>在代码中设置好卡ID即可，卡数没有限制，可以配合校园卡使用，当然可以模拟到手机了；</li><li>可用性极高；</li></ul></li><li><strong>WiFi</strong><ul><li>ESP01S连接寝室WiFi，手机有网络即可随时随地操控，不必在同一网络下，当然可以语音控制了；</li><li>懒得下床开门；忘带钥匙了舍友却在教室，<strong>懒人福利</strong>，<strong>模范舍友</strong>；</li></ul></li></ul><p>代码分为UNO端和ESP01S端，后者配合UNO实现手机随时随地控制，难点在于二者的通讯，网上资料大多都是基于NodeMCU等其他ESP8266集成开发版系列的，而类如ESP01S等的ESP8266串口WiFi模块的资料少之又少，大部分又是基于AT固件开发，初学时容易分不清楚开发板与模块而走弯路。UNO实现主要逻辑与控制，简单明了。</p><blockquote><p>ESP01S在烧录过程序后使用AT功能需重新刷AT固件。</p></blockquote><h2 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h2><ul><li>Arduino UNO 开发板</li><li>ESP01S 无线模块</li><li>MF RC522 读卡芯片</li><li>VS1838B 红外接收器</li><li>面包板、杜邦线、舵机(SG90 9g)、遥控器、校园卡、蜂鸣器(有源、可选)</li><li>其他必要附件</li></ul><h2 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h2><ul><li><p><a href="https://www.arduino.cc/en/Main/Software" target="_blank" rel="noopener">Arduino IDE</a></p></li><li><p><a href="https://github.com/esp8266/Arduino" target="_blank" rel="noopener">Arduino core for ESP8266 WiFi chip</a></p></li><li><p><a href="">Serial Tool</a> 串口助手</p></li><li><p><a href="https://diandeng.tech/home" target="_blank" rel="noopener">Blinker</a> 手机APP</p></li><li><p>IRremote、MFRC522、Blinker库</p></li><li><p>其他必要库及驱动</p><p>  以上参考官方文档进行安装，有遗漏之处自行补充。</p></li></ul><h2 id="接线"><a href="#接线" class="headerlink" title="接线"></a>接线</h2><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/Ldufan/Blog_Picture/raw/master/ESP01S-UNO.png" alt="ESP01S-UNO"></p><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="../../../Blog_Picture/AcessControl.png" alt="AcessControl"></p><blockquote><p>注意以上接线配套程序使用。</p></blockquote><h2 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h2><p><a href="https://github.com/Ldufan/AcessControlSystem" target="_blank" rel="noopener">代码</a>已在Github开源，有详细注释一看就懂，欢迎<strong>Star</strong>支持。<a href="https://github.com/Ldufan/AcessControlSystem" target="_blank" rel="noopener">https://github.com/Ldufan/AcessControlSystem</a></p><p>本作品采用<a rel="noopener" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">知识共享署名 4.0 国际许可协议</a>进行许可。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Arduino </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+            <tag> Arduino </tag>
+            
+            <tag> ESP8266 </tag>
+            
+            <tag> RC522 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>初识Arduino</title>
+      <link href="/chu-shi-arduino.html"/>
+      <url>/chu-shi-arduino.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="初识Arduino"><a href="#初识Arduino" class="headerlink" title="初识Arduino"></a>初识Arduino</h1><p>一个Arduino<a href="https://www.arduino.cn/thread-1066-1-1.html" target="_blank" rel="noopener">教程</a>帖子</p><h2 id="1-什么是Arduino"><a href="#1-什么是Arduino" class="headerlink" title="1.什么是Arduino"></a>1.什么是Arduino</h2><p>​       Arduino 是一款便捷灵活、方便上手的开源电子原型平台，包含硬件（各种型号的arduino板）和软件（arduino IDE).她适用于艺术家、设计师、爱好者和对于“互动”有兴趣的朋友们。</p><p>Arduino能通过各种各样的传感器来感知环境，通过控制灯光、马达和其他的装置来反馈、影响环境。板子上的微控制器可以通过Arduino的编程语言来编写程序，编译成二进制文件，烧录进微控制器 对Arduino的编程是利用 Arduino编程语言 (基于 Wiring)和Arduino开发环境(based on  Processing)来实现的。基于Arduino的项目，可以只包含Arduino，也可以包含Arduino和其他一些在PC上运行的软件，他们之间进行通信 (比如 Flash, Processing, MaxMSP)来实现。</p><h2 id="2-最基本代码结构"><a href="#2-最基本代码结构" class="headerlink" title="2.最基本代码结构"></a>2.最基本代码结构</h2><pre class="line-numbers language-c++"><code class="language-c++">void setup() {  // put your setup code here, to run once:}void loop() {  // put your main code here, to run repeatedly:}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p><a href="https://github.com/Robot-Will/Stino" target="_blank" rel="noopener">一款Sublime Text的Arduino插件</a>，可以在Sublime Text里进行Arduino的开发。</p><h2 id="3-一些基本概念"><a href="#3-一些基本概念" class="headerlink" title="3.一些基本概念"></a>3.一些基本概念</h2><h3 id="1）SPI"><a href="#1）SPI" class="headerlink" title="1）SPI"></a>1）SPI</h3><p>这是<a href="http://www.arduino.cc/en/Tutorial/SPIEEPROM" target="_blank" rel="noopener">官方介绍</a></p><p>Serial Peripheral Interface (SPI)（串行外围设备接口）是一种同步串行数据传输协议，用于近距离时，微控制器(Microcontrollers)，如Arduino，与其他外围设备的快速通信。他也可以用于2个微控制器的通讯。</p><p>SPI通讯通常有一个主设备（通常是Microcontrollers），用于控制外围设备。通常会有3种线路通用于各类设备的方法。</p><ul><li><p>Master In Slave Out（<strong>MISO</strong>）- Slave line，用于Slave向Master发送数据</p></li><li><p>Master Out Slave In（<strong>MOSI</strong>）- Master line，用于Master向Slave发送数据</p></li><li><p>Serial Clock（<strong>SCK</strong>）- 时钟脉冲，主设备用于同步数据传输</p></li><li><p>Slave Select pin- 分配给所有的设备，用于enable/disable指定的设备，同时用于避免由于线路忙导致的错误传输。</p></li></ul><h3 id="2）PWM"><a href="#2）PWM" class="headerlink" title="2）PWM"></a>2）PWM</h3><p><code>脉冲宽度调制</code>是一种模拟控制方式，根据相应载荷的变化来调制晶体管基极或MOS管栅极的偏置，来实现晶体管或MOS管导通时间的改变，从而实现开关稳压电源输出的改变。这种方式能使电源的输出电压在工作条件变化时保持恒定，是利用微处理器的数字信号对模拟电路进行控制的一种非常有效的技术。</p><h3 id="3）引脚"><a href="#3）引脚" class="headerlink" title="3）引脚"></a>3）引脚</h3><ul><li><strong>Power 引脚:</strong> 开发板可提供3.3V和5V电压输出，Vin引脚可用于从外部电源为开发板供电。</li><li><strong>Analog In引脚：</strong> 模拟输入引脚，开发板可读取外部模拟信号，A0~A5为模拟输入引脚。</li><li><strong>Digital 引脚：</strong>UNO R3拥有14个数字I/O引脚，其中6个可用于PWM(脉宽调制)输出。数字引脚用于读取逻辑值(0或1)，或者作为数字输出引脚来驱动外部模块。标有”~”的引脚可产生PWM。</li><li><strong>TX和RX引脚：</strong> 标有TX(发送)和RX(接收)的两个引脚用于串口通讯。其中标有TX和RX的LED灯连接相应引脚，在串口通讯时会以不同速度闪烁。</li><li><strong>13引脚：</strong>开发板标记第13引脚，连接板载LED灯，可通过控制13引脚来控制LED灯亮灭。一般拿到开发板上电板载灯都会闪烁，可辅助检测开发板是否正常。</li></ul><h2 id="4-ESP8266"><a href="#4-ESP8266" class="headerlink" title="4.ESP8266"></a>4.ESP8266</h2><ul><li><strong>ESP8266模块</strong></li></ul><p>​    首先明确概念，我们一般所说的ESP8266都是指ESP8266模块，是<a href="https://docs.ai-thinker.com/esp8266" target="_blank" rel="noopener">安信可科技</a>开发的基于<a href="https://www.espressif.com/zh-hans/products/socs/esp8266" target="_blank" rel="noopener">乐鑫</a>ESP8266EX的UART-WiFi芯片模组。它可以通过串口将信号转为WiFi信号，ESP8266模块可以通过AT指令配置与Arduino等单片机进行通信，利用WiFi进行数据传输。</p><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="../../../Blog_Picture/ESP01S.jpg" alt="ESP01S WiFi模块"></p><ul><li><p><strong>ESP8266开发板</strong></p><p>  <strong>NodeMCU</strong>是一个开源的物联网平台。基于乐鑫esp8266，具有GPIO、PWM、I2C、1-Wire、ADC等功能。</p></li></ul><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="../../../Blog_Picture/NodeMCU.jpg" alt="NodeMCU"></p><h3 id="ESP8266的Arduino开发环境搭建"><a href="#ESP8266的Arduino开发环境搭建" class="headerlink" title="ESP8266的Arduino开发环境搭建"></a>ESP8266的Arduino开发环境搭建</h3><blockquote><p>Installing with Boards Manager <a href="https://github.com/esp8266/Arduino" target="_blank" rel="noopener">官方步骤</a></p></blockquote><ul><li>Install the current upstream Arduino IDE at the 1.8.9 level or later. The current version is on the <a href="https://www.arduino.cc/en/main/software" target="_blank" rel="noopener">Arduino website</a>.</li><li>Start Arduino and open the Preferences window.</li><li>Enter <code>https://arduino.esp8266.com/stable/package_esp8266com_index.json</code> into the <em>Additional Board Manager URLs</em> field. You can add multiple URLs, separating them with commas.</li><li>Open Boards Manager from Tools &gt; Board menu and install <em>esp8266</em> platform (and don’t forget to select your ESP8266 board from Tools &gt; Board menu after installation).</li></ul><p>注意是<code>开发板管理器 Boards Manager</code>而不是<code>库管理器</code>，使用跟Arduino一样。</p><h3 id="ESP01S与UNO的串口通信"><a href="#ESP01S与UNO的串口通信" class="headerlink" title="ESP01S与UNO的串口通信"></a>ESP01S与UNO的串口通信</h3><ul><li><p>通过UNO下载程序到ESP01S时，<code>RX-RX,TX-TX</code>；</p></li><li><p>UNO与ESP01S通信时，<code>RX-TX,TX-RX</code>，软软，软硬组合都可以，UNO使用硬串口无法给ESP01S传数据；</p></li><li><p>注意波特率要一致，ESP01S默认115200；</p></li></ul><ul><li>下载程序时UNO上的其他模块最好断电；下载完程序最好重启电源；</li></ul><h2 id="一些坑，常见问题解决方法"><a href="#一些坑，常见问题解决方法" class="headerlink" title="一些坑，常见问题解决方法"></a>一些坑，常见问题解决方法</h2><ul><li><p>arduino的一个<strong>项目必须位于单独的目录下</strong>，否则会出现<code>void setup()</code>和<code>void loop()</code>重复定义等问题。并且一个目录下只能有一个主<code>.ino</code>文件，否则也会出现异常。</p></li><li><p>用Arduino给ESP01S下载时出现 A fatal error occurred: Invalid head of packet (0x00)<br>  解决：Arduino代码的影响，Arduino的RST接地</p></li><li><p>“Connecting……..<strong><strong><em>…..</em></strong></strong>…..<strong><strong><em>…..</em></strong></strong>…..<strong><strong><em>…..</em></strong></strong>…..____”</p><p>  解决：接线问题，端口错误</p></li></ul><p>本作品采用<a rel="noopener" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">知识共享署名 4.0 国际许可协议</a>进行许可。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Arduino </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+            <tag> Arduino </tag>
+            
+            <tag> ESP8266 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>pyqt5简单入门</title>
       <link href="/pyqt5-jian-dan-ru-men.html"/>
       <url>/pyqt5-jian-dan-ru-men.html</url>
@@ -97,7 +157,7 @@
       <link href="/you-guan-blog.html"/>
       <url>/you-guan-blog.html</url>
       
-        <content type="html"><![CDATA[<h1 id="博客备份"><a href="#博客备份" class="headerlink" title="博客备份"></a>博客备份</h1><h2 id="1-U盘备份"><a href="#1-U盘备份" class="headerlink" title="1. U盘备份"></a>1. U盘备份</h2><p>如题。</p><h2 id="2-Github、Gitee备份"><a href="#2-Github、Gitee备份" class="headerlink" title="2. Github、Gitee备份"></a>2. Github、Gitee备份</h2><ol><li><p>新建远程仓库，名字最好与本地博客目录名字一致，切记不要勾选Readme和.gitignore，只填仓库名称和介绍即可。</p></li><li><p>在本地博客目录下初始化仓库<code>git init</code>，添加忽略规则<code>*.log</code><br> <code>public/</code>  <code>.deploy*/</code>，至少包含这三项。</p></li><li><p><code>git add --all</code> , <code>git commit -m "message"</code>，建立本地仓库。</p></li><li><p>关联远程仓库</p><pre class="line-numbers language-bash"><code class="language-bash"> <span class="token function">git</span> remote add github git@github.com:username/reponame.git <span class="token function">git</span> remote add gitee git@gitee.com:username/reponame.git<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li><li><p>推送到远程仓库 <code>git push -u github master</code>,<code>git push -u github master</code></p></li></ol><p>注：其实懂得git就很简单了。</p><h2 id="3-博客恢复"><a href="#3-博客恢复" class="headerlink" title="3. 博客恢复"></a>3. 博客恢复</h2><p>暂时未遇到，待续。</p><h1 id="Gitee图床"><a href="#Gitee图床" class="headerlink" title="Gitee图床"></a>Gitee图床</h1><h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>Gitee创建仓库用来保存图片，把图片地址中的<code>blob</code>改为<code>raw</code>即可，前提是要开启Gitee服务，并且仓库是公开的。平时使用只需要把文章的图片放到图床对应的本地目录，完成文章后<code>git push</code>，在改地址放入文中即可，这样文章的图片双备份。</p><p>本作品采用<a rel="noopener" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">知识共享署名 4.0 国际许可协议</a>进行许可。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<h1 id="文章推送"><a href="#文章推送" class="headerlink" title="文章推送"></a>文章推送</h1><pre><code>#一般步骤hexo new "名称" 新建文章hexo g 生成静态文件hexo s 本地服务器 hexo d 部署# 出现问题hexo server -p 5000 更改端口为5000hexo g -d 生成并部署hexo d -g 生成并部署</code></pre><h1 id="博客备份"><a href="#博客备份" class="headerlink" title="博客备份"></a>博客备份</h1><h2 id="1-U盘备份"><a href="#1-U盘备份" class="headerlink" title="1. U盘备份"></a>1. U盘备份</h2><p>如题。</p><h2 id="2-Github、Gitee备份"><a href="#2-Github、Gitee备份" class="headerlink" title="2. Github、Gitee备份"></a>2. Github、Gitee备份</h2><ol><li><p>新建远程仓库，名字最好与本地博客目录名字一致，切记不要勾选Readme和.gitignore，只填仓库名称和介绍即可。</p></li><li><p>在本地博客目录下初始化仓库<code>git init</code>，添加忽略规则<code>*.log</code><br> <code>public/</code>  <code>.deploy*/</code>，至少包含这三项。</p></li><li><p><code>git add --all</code> , <code>git commit -m "message"</code>，建立本地仓库。</p></li><li><p>关联远程仓库</p><pre class="line-numbers language-bash"><code class="language-bash"> <span class="token function">git</span> remote add github git@github.com:username/reponame.git <span class="token function">git</span> remote add gitee git@gitee.com:username/reponame.git<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li><li><p>推送到远程仓库 <code>git push -u github master</code>,<code>git push -u github master</code></p></li></ol><p>注：其实懂得git就很简单了。</p><h2 id="3-博客恢复"><a href="#3-博客恢复" class="headerlink" title="3. 博客恢复"></a>3. 博客恢复</h2><p>暂时未遇到，待续。</p><h1 id="Gitee图床"><a href="#Gitee图床" class="headerlink" title="Gitee图床"></a>Gitee图床</h1><h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>Gitee创建仓库用来保存图片，把图片地址中的<code>blob</code>改为<code>raw</code>即可，前提是要开启Gitee服务，并且仓库是公开的。平时使用只需要把文章的图片放到图床对应的本地目录，完成文章后<code>git push</code>，在改地址放入文中即可，这样文章的图片双备份。</p><p>本作品采用<a rel="noopener" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">知识共享署名 4.0 国际许可协议</a>进行许可。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
@@ -109,9 +169,9 @@
       
         <tags>
             
-            <tag> Github </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> Github </tag>
             
             <tag> 博客 </tag>
             
@@ -138,9 +198,9 @@
       
         <tags>
             
-            <tag> Git </tag>
-            
             <tag> Github </tag>
+            
+            <tag> Git </tag>
             
             <tag> 学习笔记 </tag>
             
@@ -167,9 +227,9 @@
       
         <tags>
             
-            <tag> Github </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> Github </tag>
             
             <tag> 博客 </tag>
             
