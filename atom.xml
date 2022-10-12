@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Dufan</title>
+  
+  <subtitle>Dufanの秘密花园</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://Ldufan.github.io/"/>
+  <updated>2022-10-12T11:52:54.492Z</updated>
+  <id>https://Ldufan.github.io/</id>
+  
+  <author>
+    <name>Dufan</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基于Arduino的门禁系统</title>
+    <link href="https://Ldufan.github.io/ji-yu-arduino-de-men-jin-xi-tong.html"/>
+    <id>https://Ldufan.github.io/ji-yu-arduino-de-men-jin-xi-tong.html</id>
+    <published>2020-08-18T02:57:51.000Z</published>
+    <updated>2022-10-12T11:52:54.492Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;基于Arduino的门禁系统&quot;&gt;&lt;a href=&quot;#基于Arduino的门禁系统&quot; class=&quot;headerlink&quot; title=&quot;基于Arduino的门禁系统&quot;&gt;&lt;/a&gt;基于Arduino的门禁系统&lt;/h1&gt;&lt;h2 id=&quot;简介&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Arduino" scheme="https://Ldufan.github.io/categories/Arduino/"/>
+    
+    
+      <category term="学习笔记" scheme="https://Ldufan.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Arduino" scheme="https://Ldufan.github.io/tags/Arduino/"/>
+    
+      <category term="ESP8266" scheme="https://Ldufan.github.io/tags/ESP8266/"/>
+    
+      <category term="RC522" scheme="https://Ldufan.github.io/tags/RC522/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>初识Arduino</title>
+    <link href="https://Ldufan.github.io/chu-shi-arduino.html"/>
+    <id>https://Ldufan.github.io/chu-shi-arduino.html</id>
+    <published>2020-08-04T03:15:47.000Z</published>
+    <updated>2022-10-12T11:52:54.492Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;初识Arduino&quot;&gt;&lt;a href=&quot;#初识Arduino&quot; class=&quot;headerlink&quot; title=&quot;初识Arduino&quot;&gt;&lt;/a&gt;初识Arduino&lt;/h1&gt;&lt;p&gt;一个Arduino&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Arduino" scheme="https://Ldufan.github.io/categories/Arduino/"/>
+    
+    
+      <category term="学习笔记" scheme="https://Ldufan.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="Arduino" scheme="https://Ldufan.github.io/tags/Arduino/"/>
+    
+      <category term="ESP8266" scheme="https://Ldufan.github.io/tags/ESP8266/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pyqt5简单入门</title>
+    <link href="https://Ldufan.github.io/pyqt5-jian-dan-ru-men.html"/>
+    <id>https://Ldufan.github.io/pyqt5-jian-dan-ru-men.html</id>
+    <published>2020-05-01T02:22:46.000Z</published>
+    <updated>2022-10-12T11:52:54.492Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;pyqt5简单入门&quot;&gt;&lt;a href=&quot;#pyqt5简单入门&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://Ldufan.github.io/categories/python/"/>
+    
+    
+      <category term="python" scheme="https://Ldufan.github.io/tags/python/"/>
+    
+      <category term="pyqt5" scheme="https://Ldufan.github.io/tags/pyqt5/"/>
+    
+      <category term="designer" scheme="https://Ldufan.github.io/tags/designer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Sublime Text配置大全</title>
+    <link href="https://Ldufan.github.io/sublime-text-pei-zhi-da-quan.html"/>
+    <id>https://Ldufan.github.io/sublime-text-pei-zhi-da-quan.html</id>
+    <published>2020-04-03T10:46:47.000Z</published>
+    <updated>2022-10-12T11:52:54.492Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Sublime-Text配置大全&quot;&gt;&lt;a href=&quot;#Sublime-Text配置大全&quot; class=&quot;headerlink&quot; title=&quot;Sublime Text配置大全&quot;&gt;&lt;/a&gt;Sublime Text配置大全&lt;/h1&gt;&lt;h2 id=&quot;下载安装&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="软件" scheme="https://Ldufan.github.io/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+      <category term="Sublime Text" scheme="https://Ldufan.github.io/tags/Sublime-Text/"/>
+    
+      <category term="软件" scheme="https://Ldufan.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="PC" scheme="https://Ldufan.github.io/tags/PC/"/>
+    
+      <category term="备份" scheme="https://Ldufan.github.io/tags/%E5%A4%87%E4%BB%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PC软件及配置备份</title>
+    <link href="https://Ldufan.github.io/pc-ruan-jian-bei-fen.html"/>
+    <id>https://Ldufan.github.io/pc-ruan-jian-bei-fen.html</id>
+    <published>2020-04-03T01:43:25.000Z</published>
+    <updated>2022-10-12T11:52:54.491Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;PC软件及配置备份&quot;&gt;&lt;a href=&quot;#PC软件及配置备份&quot; class=&quot;headerlink&quot; title=&quot;PC软件及配置备份&quot;&gt;&lt;/a&gt;PC软件及配置备份&lt;/h1&gt;&lt;h2 id=&quot;鬼畜类&quot;&gt;&lt;a href=&quot;#鬼畜类&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="备份" scheme="https://Ldufan.github.io/categories/%E5%A4%87%E4%BB%BD/"/>
+    
+    
+      <category term="软件" scheme="https://Ldufan.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="PC" scheme="https://Ldufan.github.io/tags/PC/"/>
+    
+      <category term="备份" scheme="https://Ldufan.github.io/tags/%E5%A4%87%E4%BB%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>有关Blog</title>
+    <link href="https://Ldufan.github.io/you-guan-blog.html"/>
+    <id>https://Ldufan.github.io/you-guan-blog.html</id>
+    <published>2020-04-01T12:36:44.000Z</published>
+    <updated>2022-10-12T11:52:54.493Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;文章推送&quot;&gt;&lt;a href=&quot;#文章推送&quot; class=&quot;headerlink&quot; title=&quot;文章推送&quot;&gt;&lt;/a&gt;文章推送&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#一般步骤
+hexo new &quot;名称&quot; 新建文章
+hexo g 生成静态文件
+hexo s 本地服务器
+        
+      
+    
+    </summary>
+    
+      <category term="博客" scheme="https://Ldufan.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Github" scheme="https://Ldufan.github.io/tags/Github/"/>
+    
+      <category term="Hexo" scheme="https://Ldufan.github.io/tags/Hexo/"/>
+    
+      <category term="博客" scheme="https://Ldufan.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git学习笔记</title>
+    <link href="https://Ldufan.github.io/git-xue-xi-bi-ji.html"/>
+    <id>https://Ldufan.github.io/git-xue-xi-bi-ji.html</id>
+    <published>2020-04-01T02:15:10.000Z</published>
+    <updated>2022-10-12T11:52:54.491Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Git学习笔记&quot;&gt;&lt;a href=&quot;#Git学习笔记&quot; class=&quot;headerlink&quot; title=&quot;Git学习笔记&quot;&gt;&lt;/a&gt;Git学习笔记&lt;/h1&gt;&lt;h2 id=&quot;特别注意&quot;&gt;&lt;a href=&quot;#特别注意&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Git" scheme="https://Ldufan.github.io/categories/Git/"/>
+    
+    
+      <category term="Git" scheme="https://Ldufan.github.io/tags/Git/"/>
+    
+      <category term="Github" scheme="https://Ldufan.github.io/tags/Github/"/>
+    
+      <category term="学习笔记" scheme="https://Ldufan.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Word</title>
+    <link href="https://Ldufan.github.io/hello-word.html"/>
+    <id>https://Ldufan.github.io/hello-word.html</id>
+    <published>2020-03-31T16:00:00.000Z</published>
+    <updated>2022-10-12T11:52:54.491Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Hello-Word&quot;&gt;&lt;a href=&quot;#Hello-Word&quot; class=&quot;headerlink&quot; title=&quot;Hello Word&quot;&gt;&lt;/a&gt;Hello Word&lt;/h1&gt;&lt;p&gt;​    Hello Word！This is my first
+        
+      
+    
+    </summary>
+    
+      <category term="博客" scheme="https://Ldufan.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Github" scheme="https://Ldufan.github.io/tags/Github/"/>
+    
+      <category term="Hexo" scheme="https://Ldufan.github.io/tags/Hexo/"/>
+    
+      <category term="博客" scheme="https://Ldufan.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
