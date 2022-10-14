@@ -178,6 +178,35 @@
     
     
     <entry>
+      <title>PC软件及配置备份</title>
+      <link href="/pc-ruan-jian-bei-fen.html"/>
+      <url>/pc-ruan-jian-bei-fen.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="PC软件及配置备份"><a href="#PC软件及配置备份" class="headerlink" title="PC软件及配置备份"></a>PC软件及配置备份</h1><h2 id="鬼畜类"><a href="#鬼畜类" class="headerlink" title="鬼畜类"></a>鬼畜类</h2><blockquote><p>BPMAnalyzer</p><p>FL studio</p><p>UTAU</p><p>Melodyne</p><p>Adobe系列</p><blockquote><p>AU</p><p>PR</p><p>PS</p><p>AE</p></blockquote><p>小丸工具箱</p></blockquote><h2 id="学习类"><a href="#学习类" class="headerlink" title="学习类"></a>学习类</h2><blockquote><p>ANSYS</p><p>CAD</p><p>Creo</p><p>Solid Eorks</p><p>Matlab</p><p>Python</p><p>Scihub</p><p>SW6</p><p>冰点</p><p>幕布</p><p>福昕</p><p>SumatraPDF</p><p>E Study</p><p>Math Type</p><p>BookxNote</p><p>欧路词典</p><p>知网研学</p></blockquote><h2 id="美化类"><a href="#美化类" class="headerlink" title="美化类"></a>美化类</h2><blockquote><p>TranslucentTB</p><p>NetSpeedMoniter</p><p>F.lux</p><p>Mem Reduct</p></blockquote><h2 id="Win利器"><a href="#Win利器" class="headerlink" title="Win利器"></a>Win利器</h2><blockquote><p>Clover</p><p>Cmder</p><p>Git</p><p>Everything</p><p>IDM</p><p>Mactype</p><p>Sublime Text</p><blockquote><p>kite</p></blockquote><p>Notepad++</p><p>PanDownload</p><p>Typora</p><p>Wise Program Uninstall</p><p>Office</p><p>Viso</p><p>Bandzip</p><p>IObit Unlocker</p><p>Resilio Sync</p><p>FireFox ESR</p><p>搜狗输入法</p><p>PotPlayer</p><p>V2</p><p>WeChat</p><p>WeChat Work</p><p>Quick Look</p><blockquote><p>Plugin.EpubViewer</p><p>Plugin.OfficeViewer</p></blockquote><p>12306Bypass</p><p>ffmpeg</p><p>you-get</p><p>HoneyView</p><p>Node.js</p><p>Hexo</p><p>Recuva</p><p>System Box</p><p>盘姬工具箱</p><p>MotionPro</p></blockquote><h2 id="休闲"><a href="#休闲" class="headerlink" title="休闲"></a>休闲</h2><blockquote><p>人人影视</p><p>网易云音乐</p></blockquote><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><blockquote><p>YAHEI CONSOLA HYBRID</p></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 备份 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+            <tag> PC </tag>
+            
+            <tag> 备份 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>有关Blog</title>
       <link href="/you-guan-blog.html"/>
       <url>/you-guan-blog.html</url>
