@@ -38,9 +38,9 @@
       <category term="MySQL" scheme="https://Ldufan.github.io/categories/MySQL/"/>
     
     
-      <category term="MySQL" scheme="https://Ldufan.github.io/tags/MySQL/"/>
-    
       <category term="学习笔记" scheme="https://Ldufan.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="MySQL" scheme="https://Ldufan.github.io/tags/MySQL/"/>
     
   </entry>
   
@@ -197,36 +197,6 @@
   </entry>
   
   <entry>
-    <title>PC软件及配置备份</title>
-    <link href="https://Ldufan.github.io/pc-ruan-jian-bei-fen.html"/>
-    <id>https://Ldufan.github.io/pc-ruan-jian-bei-fen.html</id>
-    <published>2020-04-03T01:43:25.000Z</published>
-    <updated>2022-10-14T06:49:21.212Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;PC软件及配置备份&quot;&gt;&lt;a href=&quot;#PC软件及配置备份&quot; class=&quot;headerlink&quot; title=&quot;PC软件及配置备份&quot;&gt;&lt;/a&gt;PC软件及配置备份&lt;/h1&gt;&lt;h2 id=&quot;鬼畜类&quot;&gt;&lt;a href=&quot;#鬼畜类&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="备份" scheme="https://Ldufan.github.io/categories/%E5%A4%87%E4%BB%BD/"/>
-    
-    
-      <category term="软件" scheme="https://Ldufan.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
-    
-      <category term="PC" scheme="https://Ldufan.github.io/tags/PC/"/>
-    
-      <category term="备份" scheme="https://Ldufan.github.io/tags/%E5%A4%87%E4%BB%BD/"/>
-    
-  </entry>
-  
-  <entry>
     <title>有关Blog</title>
     <link href="https://Ldufan.github.io/you-guan-blog.html"/>
     <id>https://Ldufan.github.io/you-guan-blog.html</id>
@@ -253,9 +223,9 @@ hexo s 本地服务器
     
       <category term="Github" scheme="https://Ldufan.github.io/tags/Github/"/>
     
-      <category term="博客" scheme="https://Ldufan.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="Hexo" scheme="https://Ldufan.github.io/tags/Hexo/"/>
+    
+      <category term="博客" scheme="https://Ldufan.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -281,11 +251,11 @@ hexo s 本地服务器
       <category term="Git" scheme="https://Ldufan.github.io/categories/Git/"/>
     
     
-      <category term="学习笔记" scheme="https://Ldufan.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
       <category term="Git" scheme="https://Ldufan.github.io/tags/Git/"/>
     
       <category term="Github" scheme="https://Ldufan.github.io/tags/Github/"/>
+    
+      <category term="学习笔记" scheme="https://Ldufan.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -313,9 +283,9 @@ hexo s 本地服务器
     
       <category term="Github" scheme="https://Ldufan.github.io/tags/Github/"/>
     
-      <category term="博客" scheme="https://Ldufan.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
       <category term="Hexo" scheme="https://Ldufan.github.io/tags/Hexo/"/>
+    
+      <category term="博客" scheme="https://Ldufan.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
